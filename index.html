@@ -1,118 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHMED OSAMA - Personal Page</title>
+    <title>𝑨𝒁 𝑮𝑨𝑴𝑬𝑺</title>
+    <link rel="icon" href="https://i.postimg.cc/fR9Wzp7S/1.webp">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
             margin: 0;
             padding: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px 0;
-        }
-        .header h1 {
-            margin: 0;
-        }
-        .logo {
-            margin: 20px 0;
-        }
-        .content {
-            margin: 20px 0;
-        }
-        .content h2 {
-            color: #007BFF;
-        }
-        .product {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-        .product-item {
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 20px;
-            width: 300px;
-            text-align: left;
-        }
-        .product-item img {
-            width: 100%;
-        }
-        .product-item h3 {
-            color: #007BFF;
-        }
-        .product-item .price {
-            font-size: 1.2em;
+            background-color: #f9f9f9;
             color: #333;
         }
-        .footer {
-            margin-top: 20px;
-            padding: 10px 0;
-            background-color: #333;
+        header {
+            background-color: #d4af37;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #d4af37, #e9c46a);
             color: white;
         }
-        a {
-            color: #007BFF;
-            text-decoration: none;
+        .hero h1 {
+            font-size: 2rem;
         }
-        a:hover {
-            text-decoration: underline;
+        .games-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 20px;
+            justify-content: center;
+            align-items: start;
+        }
+        .game-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            width: 300px;
+        }
+        .game-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+        .game-card select, .game-card button {
+            width: 100%;
+            padding: 15px;
+            margin-top: auto;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .game-card button {
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+            border: none;
+        }
+        .game-card button:hover {
+            background-color: #218838;
+        }
+        .payment-icons {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .payment-icons img {
+            width: 220px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>AHMED OSAMA</h1>
-        </div>
-        <div class="logo">
-            <img src="https://cdn.discordapp.com/attachments/1242064158191517706/1259530347436310658/DALLE_2024-07-05_11.00.45_-_A_colorful_and_dynamic_logo_design_featuring_the_word_Logo_in_bold_black_font_and_the_word_design_in_sleek_black_font._The_background_has_a_splatt.webp?ex=668c048b&is=668ab30b&hm=5f254af1fd7cf0d4b3c4f76dbaed8c098aeb518d2a7e1bf6e85b9caddc0653f6&" alt="Logo Design" width="300">
-        </div>
-        <div class="content">
-            <h2>LOGO DESIGN</h2>
-            <p>Hello! My name is Ahmed Osama, and I am a professional logo designer.</p>
-            <p>Contact me on social media:</p>
-            <p><a href="https://www.facebook.com/groups/993123112413379/" target="_blank">Facebook Group</a></p>
-        </div>
-        <div class="product">
-            <div class="product-item">
-                <img src="https://cdn.discordapp.com/attachments/1242064158191517706/1259530347436310658/DALLE_2024-07-05_11.00.45_-_A_colorful_and_dynamic_logo_design_featuring_the_word_Logo_in_bold_black_font_and_the_word_design_in_sleek_black_font._The_background_has_a_splatt.webp?ex=668c048b&is=668ab30b&hm=5f254af1fd7cf0d4b3c4f76dbaed8c098aeb518d2a7e1bf6e85b9caddc0653f6&" alt="Product Image">
-                <h3>Product 1</h3>
-                <p>Description of Product 1.</p>
-                <p class="price">1900 EGP</p>
-            </div>
-            <div class="product-item">
-                <img src="https://cdn.discordapp.com/attachments/1242064158191517706/1259530347436310658/DALLE_2024-07-05_11.00.45_-_A_colorful_and_dynamic_logo_design_featuring_the_word_Logo_in_bold_black_font_and_the_word_design_in_sleek_black_font._The_background_has_a_splatt.webp?ex=668c048b&is=668ab30b&hm=5f254af1fd7cf0d4b3c4f76dbaed8c098aeb518d2a7e1bf6e85b9caddc0653f6&" alt="Product Image">
-                <h3>Product 2</h3>
-                <p>Description of Product 2.</p>
-                <p class="price">2500 EGP</p>
-            </div>
-            <div class="product-item">
-                <img src="https://cdn.discordapp.com/attachments/1242064158191517706/1259530347436310658/DALLE_2024-07-05_11.00.45_-_A_colorful_and_dynamic_logo_design_featuring_the_word_Logo_in_bold_black_font_and_the_word_design_in_sleek_black_font._The_background_has_a_splatt.webp?ex=668c048b&is=668ab30b&hm=5f254af1fd7cf0d4b3c4f76dbaed8c098aeb518d2a7e1bf6e85b9caddc0653f6&" alt="Product Image">
-                <h3>Product 3</h3>
-                <p>Description of Product 3.</p>
-                <p class="price">3100 EGP</p>
-            </div>
-        </div>
-        <div class="footer">
-            <p>&copy; 2024 AHMED OSAMA. All rights reserved.</p>
-        </div>
+    <header>𝑨𝒁 𝑮𝑨𝑴𝑬𝑺</header>
+    <div class="hero">
+        <h1>WELCOME TO SHOP 𝑨𝒁 𝑮𝑨𝑴𝑬𝑺 FOR PUBG MOBILE.</h1>
     </div>
+
+    <section class="games-section" id="games">
+        <h2>𝑷𝑹𝑶𝑫𝑼𝑪𝑻𝑺</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BYPASS MONTH">
+                <h3>OP BYPASS MONTH NUMBER #1</h3>
+                <p class="price">$35</p>
+                <button>Buy Now</button>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BYPASS MONTH">
+                <h3>OP BYPASS MONTH</h3>
+                <select>
+                    <option>OP BYPASS MONTH + VN HAX - $55</option>
+                    <option>OP BYPASS MONTH + REDEYE - $45</option>
+                    <option>OP BYPASS MONTH + NIMROD - $45</option>
+                </select>
+                <button>Buy Now</button>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://i.postimg.cc/wBksB3ht/a-ad897e71593ab99573df1ea4e0f54576.gif" alt="REDEYE HACK MONTH">
+                <h3>REDEYE HACK MONTH + WEEK FREE</h3>
+                <p class="price">$15</p>
+                <button>Buy Now</button>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://i.postimg.cc/Vs3hV6HQ/Nimrod-gif.gif" alt="NIMROD HACK">
+                <h3>NIMROD HACK</h3>
+                <select>
+                    <option>NIMROD X HACK FOR BYPASS + WEEK FREE - $15</option>
+                    <option>NIMROD HACK EMU OR BP + WEEK FREE - $15</option>
+                </select>
+                <button>Buy Now</button>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://i.postimg.cc/QdGfgkG4/download.jpg" alt="VN HAX">
+                <h3>VN HAX</h3>
+                <select>
+                    <option>VN HAX MONTH - $25</option>
+                    <option>VN HAX WEEK - $15</option>
+                    <option>VN HAX FREEZ DAY - $5</option>
+                </select>
+                <button>Buy Now</button>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
