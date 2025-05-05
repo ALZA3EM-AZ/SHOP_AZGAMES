@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝑨𝒁 𝑮𝑨𝑴𝑬𝑺</title>
-    <link rel="icon" href="https://i.postimg.cc/fR9Wzp7S/1.webp">
+    <title>AZGAMES</title>
+    <link rel="icon" href="https://i.postimg.cc/D0fZ5vFw/AZ-GAMES-Circular-Only-Logo.png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,89 +18,144 @@
             color: white;
             padding: 15px;
             text-align: center;
-            font-size: 2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4CAF50;
             font-weight: bold;
         }
         .hero {
             text-align: center;
-            padding: 20px;
+            padding: 10px 20px;
             background: linear-gradient(to right, #d4af37, #e9c46a);
             color: white;
         }
         .hero h1 {
-            font-size: 2rem;
+            font-size: 3rem;
         }
         .games-section {
             padding: 40px 20px;
             text-align: center;
         }
+        .games-section h2 {
+            margin-bottom: 20px;
+        }
         .games-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            padding: 20px;
-            justify-content: center;
-            align-items: start;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
         }
         .game-card {
             background: white;
             padding: 20px;
+            border: 1px solid #ddd;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
             text-align: center;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            height: 100%;
-            width: 300px;
+            justify-content: space-between;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
         }
         .game-card img {
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-        }
-        .game-card select, .game-card button {
-            width: 100%;
-            padding: 15px;
-            margin-top: auto;
+            max-width: 100%;
             border-radius: 5px;
-            border: 1px solid #ccc;
         }
-        .game-card button {
-            background-color: #28a745;
-            color: white;
+        .game-card h3 {
+            min-height: 60px; /* لضمان توحيد ارتفاع العناوين */
+        }
+        .game-card p {
             font-weight: bold;
-            cursor: pointer;
-            font-size: 16px;
-            border: none;
+            margin-top: auto;
         }
-        .game-card button:hover {
-            background-color: #218838;
+        .game-card a {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        .game-card a:hover {
+            background-color: #45a049;
         }
         .payment-icons {
-            margin-top: 10px;
-            text-align: center;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
         }
         .payment-icons img {
-            width: 220px;
+            width: 100px;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <header>𝑨𝒁 𝑮𝑨𝑴𝑬𝑺</header>
+    <header>
+        <h1>AZGAMES</h1>
+    </header>
+    <div style="text-align: center; background: linear-gradient(to right, #c49130, #dbb43a); padding: 10px;">
+        <img src="https://i.postimg.cc/5y6ncBc1/33a45e29-52dc-406a-97fa-44fdfbb9dafc.jpg" alt="Game Banner" style="width: 100%; max-width: 400px; border-radius: 10px;">
+    </div>
+
+    
+
     <div class="hero">
-        <h1>WELCOME TO SHOP 𝑨𝒁 𝑮𝑨𝑴𝑬𝑺 FOR PUBG MOBILE.</h1>
+        <h1 style="font-size: 2rem;">WELCOME TO SHOP AZ GAMES FOR PUBG MOBILE.</h1>
+        
+        <p><em>Click BUY NOW and send ORDER to WhatsApp to get the payment link.</em></p>
+        <div class="social-buttons" style="margin-top: 20px;">
+            <a href="https://t.me/AZGAMEES" style="margin: 5px; padding: 10px 20px; background: linear-gradient(to right, #4CAF50, #8BC34A); color: white; text-decoration: none; border-radius: 5px;">Telegram Group</a>
+            <a href="https://chat.whatsapp.com/FDlhHyOXgQd5Cw620Q3jf9" style="margin: 5px; padding: 10px 20px; background: linear-gradient(to right, #4CAF50, #8BC34A); color: white; text-decoration: none; border-radius: 5px;">WhatsApp Group</a>
+            <a href="https://discord.gg/Hk4nSyrzVY" style="margin: 5px; padding: 10px 20px; background: linear-gradient(to right, #4CAF50, #8BC34A); color: white; text-decoration: none; border-radius: 5px;">Discord</a>
+        </div>
     </div>
 
     <section class="games-section" id="games">
-        <h2>𝑷𝑹𝑶𝑫𝑼𝑪𝑻𝑺</h2>
+        <h2>𝑶𝑼𝑹 𝑷𝑹𝑶𝑫𝑼𝑪𝑻𝑺</h2>
         <div class="games-grid">
             <div class="game-card">
-                <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BYPASS MONTH">
-                <h3>OP BYPASS MONTH NUMBER #1</h3>
-                <p class="price">$35</p>
-                <button>Buy Now</button>
+                <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BP MONTH + VN HAX">
+                <h3>OP BP MONTH + VN HAX</h3>
+                <p>$60</p>
+                <a href="https://cube.paysky.io/?R=t8bxau">Buy Now</a>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BP MONTH + REDEYE">
+                <h3>OP BP MONTH + REDEYE</h3>
+                <p>$50</p>
+                <a href="https://cube.paysky.io:6006/?POID=CYDmgzfc&MID=20049800339&TID=25697357">Buy Now</a>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BP MONTH + NIMROD">
+                <h3>OP BP MONTH + NIMROD</h3>
+                <p>$50</p>
+                <a href="https://cube.paysky.io:6006/?POID=CYDmgzfc&MID=20049800339&TID=25697357">Buy Now</a>
                 <div class="payment-icons">
                     <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
                 </div>
@@ -108,51 +163,55 @@
             <div class="game-card">
                 <img src="https://media.giphy.com/media/zyfq9pdkYPMkGMTDFm/giphy.gif" alt="OP BYPASS MONTH">
                 <h3>OP BYPASS MONTH</h3>
-                <select>
-                    <option>OP BYPASS MONTH + VN HAX - $55</option>
-                    <option>OP BYPASS MONTH + REDEYE - $45</option>
-                    <option>OP BYPASS MONTH + NIMROD - $45</option>
-                </select>
-                <button>Buy Now</button>
+                <p>$35</p>
+                <a href="https://cube.paysky.io/?R=HUo4er">Buy Now</a>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://i.postimg.cc/QdGfgkG4/download.jpg" alt="VN HAX MONTH">
+                <h3>VN HAX MONTH</h3>
+                <p>$25</p>
+                <a href="https://cube.paysky.io/?R=j7qTud">Buy Now</a>
+                <div class="payment-icons">
+                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://i.postimg.cc/QdGfgkG4/download.jpg" alt="VN HAX WEEK">
+                <h3>VN HAX WEEK</h3>
+                <p>$15</p>
+                <a href="https://cube.paysky.io/?R=yqxn21">Buy Now</a>
                 <div class="payment-icons">
                     <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
                 </div>
             </div>
             <div class="game-card">
                 <img src="https://i.postimg.cc/wBksB3ht/a-ad897e71593ab99573df1ea4e0f54576.gif" alt="REDEYE HACK MONTH">
-                <h3>REDEYE HACK MONTH + WEEK FREE</h3>
-                <p class="price">$15</p>
-                <button>Buy Now</button>
+                <h3>REDEYE HACK MONTH</h3>
+                <p>$15</p>
+                <a href="https://cube.paysky.io/?R=yqxn21">Buy Now</a>
                 <div class="payment-icons">
                     <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
                 </div>
             </div>
             <div class="game-card">
-                <img src="https://i.postimg.cc/Vs3hV6HQ/Nimrod-gif.gif" alt="NIMROD HACK">
-                <h3>NIMROD HACK</h3>
-                <select>
-                    <option>NIMROD X HACK FOR BYPASS + WEEK FREE - $15</option>
-                    <option>NIMROD HACK EMU OR BP + WEEK FREE - $15</option>
-                </select>
-                <button>Buy Now</button>
-                <div class="payment-icons">
-                    <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
-                </div>
-            </div>
-            <div class="game-card">
-                <img src="https://i.postimg.cc/QdGfgkG4/download.jpg" alt="VN HAX">
-                <h3>VN HAX</h3>
-                <select>
-                    <option>VN HAX MONTH - $25</option>
-                    <option>VN HAX WEEK - $15</option>
-                    <option>VN HAX FREEZ DAY - $5</option>
-                </select>
-                <button>Buy Now</button>
+                <img src="https://i.postimg.cc/Vs3hV6HQ/Nimrod-gif.gif" alt="NIMROD EMU OR BYPASS">
+                <h3>NIMROD EMU OR BYPASS</h3>
+                <p>$15</p>
+                <a href="https://cube.paysky.io/?R=yqxn21">Buy Now</a>
                 <div class="payment-icons">
                     <img src="https://i.postimg.cc/pLr1LXvx/6565656565656.png" alt="Payment Methods">
                 </div>
             </div>
         </div>
     </section>
+
+    <footer>
+    
+    <p>&copy; 2025 AZGAMES. All rights reserved.</p>
+</footer>
+<a href="https://wa.me/201016004324" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;"><img src="https://i.postimg.cc/90Qg7q3x/download.jpg" alt="WhatsApp" style="width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"></a>
 </body>
 </html>
